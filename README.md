@@ -16,6 +16,94 @@ cases.
 
 ## Program
 
+## 1.do while
+```
+def do_while_example(start):
+    result = []
+    while True:
+        result.append(start)
+        start += 1
+        if start > 5:
+            break
+    return result
+def test_1():
+    assert do_while_example(2) == [2, 3, 4, 5]
+def test_2():
+    assert do_while_example(2) == [2, 3, 4]
+```
+
+## 2.while
+```
+def while_loop_example(start):
+    result = []
+    while start < 5:
+        result.append(start)
+        start += 1
+    return result
+
+def test_while_loop_1():
+    assert while_loop_example(2) == [2, 3, 4]
+
+def test_while_loop_2():
+    assert while_loop_example(2) == [2, 3]
+```
+
+## 3.for
+```
+def for_loop_example(start):
+    result = []
+    for i in range(start, 5):
+        result.append(i)
+    return result
+
+def test_for_loop_1():
+    assert for_loop_example(2) == [2, 3, 4]
+
+def test_for_loop_2():
+    assert for_loop_example(2) == [2, 3]
+
+```
+
+## 4.switch
+```
+def switch_example(value):
+    match value:
+        case 1:
+            return "One"
+        case 2:
+            return "Two"
+        case _:
+            return "Other"
+
+def test_switch_1():
+    assert switch_example(1) == "One"
+    assert switch_example(2) == "Two"
+    assert switch_example(5) == "Other"
+
+def test_switch_2():
+    assert switch_example(1) == "Two"
+
+
+```
+
+## 5.if else
+```
+def if_else_example(num):
+    if num > 5:
+        return "Greater"
+    else:
+        return "Smaller or equal"
+
+def test_if_else_1():
+    assert if_else_example(7) == "Greater"
+    
+
+def test_if_else_2():
+    assert if_else_example(7) == "Smaller or equal"
+
+```
+
+
 ## Output
 
 ## Result
