@@ -106,8 +106,30 @@ def test_if_else_2():
 
 ## Output
 
+## do while
+
+<img width="1409" height="618" alt="image" src="https://github.com/user-attachments/assets/d647f056-b54e-479e-9e7c-47880e9a4b0e" />
+
+## while
+
+<img width="1511" height="606" alt="image" src="https://github.com/user-attachments/assets/6af5b8db-3d0a-462a-930a-4aa982ea247e" />
+
+## for
+
+<img width="1621" height="654" alt="image" src="https://github.com/user-attachments/assets/ac436c3b-5f5d-4b30-91f3-8e45a8d48053" />
+
+## switch
+
+<img width="1648" height="524" alt="image" src="https://github.com/user-attachments/assets/4089dbe0-4e9e-46fa-bfe5-8ca924800a93" />
+
+
+## if else
+
+<img width="1639" height="616" alt="image" src="https://github.com/user-attachments/assets/b97d83ed-1d49-4d36-9aaa-44dea9a57280" />
+
 ## Result
 
+Thus, the python program to demonstrate the working of given constructs is implemented and the output is verified successfully.
 
 
 
